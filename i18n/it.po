@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* carburante
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-12 20:55+0000\n"
+"PO-Revision-Date: 2023-10-12 20:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__address
+msgid "Address"
+msgstr "Indirizzo"
+
+#. module: carburante
+#: model:ir.ui.menu,name:carburante.fleet_fuel_menu_action
+msgid "Carburante"
+msgstr "Rifornimento flotta"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__card_number
+msgid "Card Number"
+msgstr "Numero Scheda"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__company_id
+msgid "Company"
+msgstr "Azienda"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__company_reference
+msgid "Company Reference"
+msgstr "Numero referenza"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__create_uid
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__create_uid
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__create_date
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__create_date
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__create_date
+msgid "Created on"
+msgstr "Creato il"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__display_name
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__display_name
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__driver_id
+msgid "Driver"
+msgstr "Autista"
+
+#. module: carburante
+#: model_terms:ir.ui.view,arch_db:carburante.fleet_fuel_type_views_tree
+msgid "Fleet Fuel Type"
+msgstr "Tipi di carburante"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__product_id
+msgid "Fuel Type"
+msgstr "Tipo di carburante"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__id
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__id
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__id
+msgid "ID"
+msgstr ""
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__invoice
+msgid "Invoice"
+msgstr "Fattura"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__invoice_date
+msgid "Invoice Date"
+msgstr "Data fattura"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__invoice_discount
+msgid "Invoice Discount"
+msgstr "Sconto fattura"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__km_fleet
+msgid "Km at moment"
+msgstr "Km al rifornimento"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel____last_update
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company____last_update
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__write_uid
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__write_uid
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__write_uid
+msgid "Last Updated by"
+msgstr "Ultima aggiornamento da"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__write_date
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_company__write_date
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__write_date
+msgid "Last Updated on"
+msgstr "ultima aggiornamento il "
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__location
+msgid "Location"
+msgstr "Località"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel_type__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__res_partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__point_sale_code
+msgid "Point Sale Code"
+msgstr "Codice punto vendita"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__price_whitout_tax
+msgid "Price Without Tax"
+msgstr "Prezzo senza tasse"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__price_unit
+msgid "Price per Unit"
+msgstr "Prezzo per unità"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__quantity
+msgid "Quantity"
+msgstr "Quantità"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__reference
+msgid "Reference"
+msgstr "Referenza"
+
+#. module: carburante
+#: model:ir.actions.act_window,name:carburante.fleet_fuel
+#: model:ir.actions.act_window,name:carburante.fleet_fuel_type
+msgid "Rifornimenti flotta"
+msgstr "Rifornimenti flotta"
+
+#. module: carburante
+#: model:ir.model,name:carburante.model_fleet_fuel_company
+msgid "Tabella per associare azienda interna con codice azienda carburante"
+msgstr ""
+
+#. module: carburante
+#: model:ir.model,name:carburante.model_fleet_fuel
+msgid "Tabella rifornimenti mezzi"
+msgstr ""
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__tax
+msgid "Tax"
+msgstr "Tasse"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__tax_rate
+msgid "Tax Rate"
+msgstr "Percentuale tasse"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__ticket
+msgid "Ticket"
+msgstr ""
+
+#. module: carburante
+#: model:ir.model,name:carburante.model_fleet_fuel_type
+msgid "Tipi di carburante"
+msgstr "Tipo di carburante"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__price
+msgid "Total Price"
+msgstr "Prezzo Totale"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__transaction_datetime
+msgid "Transaction Date and Time"
+msgstr "Quando"
+
+#. module: carburante
+#: model:ir.ui.menu,name:carburante.fleet_fuel_type_menu_action
+msgid "Type of fuel"
+msgstr "Tipo di carburante"
+
+#. module: carburante
+#: model:ir.model.fields,field_description:carburante.field_fleet_fuel__fleet_id
+msgid "Vehicle"
+msgstr "Veicolo"

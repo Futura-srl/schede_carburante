@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <!-- Relativo alla visualizzazione della tabella ad alberlo -->
+    <record id="fleet_fuel_company_views_tree" model="ir.ui.view">
+        <field name="name">Tabella autisti rifornimenti</field>
+        <field name="model">fleet.fuel.driver</field>
+        <field name="arch" type="xml">
+            <tree string="Fleet Fuel Driver">
+                <field name="driver_code"/>
+                <field name="driver_pin"/>
+                <field name="res_partner_id"/>
+                <field name="start_datetime"/>
+                <field name="end_datetime"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+
+
+
+
+
+    <record id="fleet_fuel_driver" model="ir.actions.act_window">
+        <field name="name">Tabella autisti rifornimenti</field>
+        <field name="res_model">fleet.fuel.driver</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

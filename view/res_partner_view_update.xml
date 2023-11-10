@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <!-- Relativo alla visualizzazione della tabella ad alberlo -->
+    <record id="res_partner_view_form_update_2" model="ir.ui.view">
+        <field name="name">res.partner.form.update.2</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="dipendenti.res_partner_view_form_update"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='access_code_employee']" position="after">
+                <field name="driver_code" attrs="{'invisible': [('is_driver', '!=', True)]}"/>
+                <field name="driver_pin" attrs="{'invisible': [('is_driver', '!=', True)]}"/>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button class="oe_stat_button" name="open_fleet_fuel_driver" type="object" icon="fa-credit-card" attrs="{'invisible': [('is_driver', '!=', True)]}">
+                    <span>Tessera carburante</span>
+                </button>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
