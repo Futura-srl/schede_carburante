@@ -1,6 +1,6 @@
 {
     'name': 'Schede carburante',
-    'version': '17',
+    'version': '17.0',
     'author': "Luca Cocozza",
     'application': True,
     'description': "Gestione delle schede carburante.",
