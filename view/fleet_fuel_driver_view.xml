@@ -4,7 +4,7 @@
 
     <!-- Relativo alla visualizzazione della tabella ad alberlo -->
     <record id="fleet_fuel_company_views_tree" model="ir.ui.view">
-        <field name="name">Tabella autisti rifornimenti</field>
+        <field name="name">Tabella codici IP autisti per rifornimenti</field>
         <field name="model">fleet.fuel.driver</field>
         <field name="arch" type="xml">
             <tree string="Fleet Fuel Driver">
