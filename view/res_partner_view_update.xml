@@ -8,7 +8,7 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="dipendenti.gtms_res_partner_form_inherit_2"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='access_code_employee']" position="after">
+            <xpath expr="//field[@name='is_driver']" position="after">
                 <field name="driver_code" invisible="is_driver != True"/>
                 <field name="driver_pin" invisible="is_driver != True"/>
             </xpath>

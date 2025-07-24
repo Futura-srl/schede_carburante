@@ -4,7 +4,7 @@
     'author': "Luca Cocozza",
     'application': True,
     'description': "Gestione delle schede carburante.",
-    'depends': ['carburante', 'dipendenti', 'Diritti'],
+    'depends': ['carburante', 'dipendenti', 'Diritti', 'gtms'],
     'data': [
         # # Settaggi per accesso ai contenuti
         'data/ir.model.access.csv',
