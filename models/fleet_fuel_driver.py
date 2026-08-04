@@ -31,7 +31,7 @@ class FleetFieldsUpdate(models.Model):
     def open_fleet_fuel_driver(self):
         return {
             'name': 'Fleet Fuel Drivers',
-            'view_mode': 'tree,form',
+            'view_mode': 'list,form',
             'res_model': 'fleet.fuel.driver',
             'type': 'ir.actions.act_window',
             'domain': [('res_partner_id', '=', self.id)],
