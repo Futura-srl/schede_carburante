@@ -1,6 +1,7 @@
 {
     'name': 'Schede carburante',
-    'version': '19.0.1.0.0',
+    'version': '19.0.1.0.1',
+    'license': 'OPL-1',
     'author': "Luca Cocozza",
     'application': True,
     'description': "Gestione delle schede carburante.",
